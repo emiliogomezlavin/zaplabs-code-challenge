@@ -1,0 +1,113 @@
+body {
+    font-family: Lato, sans-serif;
+    background-color: #ecf0f1;
+}
+#nav-container   {
+    width: 100%; 
+    height: 50px; 
+    margin: 0; 
+    z-index: 99; 
+    position: relative; 
+    background-color: white;
+}
+.navbar {
+    height: 50px;
+    padding: 0;
+    margin: 0;
+    position: absolute; 
+}
+.navbar li  {
+    height: auto;
+    width: 120px; 
+    float: left;  
+    text-align: center;
+    list-style: none;  
+    font-size: 12px;
+    padding: 0;
+    margin: 0;
+    background-color: white;
+}
+.navbar a   {                           
+    padding: 18px 0;  
+    text-decoration: none;  
+    color: black; 
+    display: block;
+}
+.navbar li:hover, a:hover {
+    background-color: #366b82;
+    color: white;
+} 
+.navbar li ul   {
+    display: none; 
+    height: auto;                                   
+    margin: 0; 
+    padding: 0; 
+}               
+.navbar li:hover ul {
+    display: block; 
+    color: white;
+}
+.navbar li ul li {
+    background-color: #366b82;
+}               
+.navbar li ul li a:hover {
+    background-color: #366b82;
+    color: white;
+}
+form {
+    display: inline-block !important;
+}
+.card-image {   
+    width: 100%;
+    height: auto;
+}
+.image-btn {
+    width: 100%;
+    position: absolute; 
+    bottom: 0;
+    left: 0;
+    background-color: #366b82;
+    border-radius: 0px;
+    color: white;
+    border: 0px solid transparent;
+    height: 40px;
+}
+.image-container {
+    padding: 15px; 
+    position: relative;
+    border: 1px solid gray;
+}
+.info-container {
+    padding: 5px; 
+}
+table {
+    width: 100%;
+    border-top: 1px solid gray;
+    border-bottom: 1px solid gray;
+}
+.main-container {
+    background-color: white;
+    border-right: 1px solid gray;
+}
+
+h1 {
+    color: #366b82;
+}
+@media only screen and (max-width: 480px) {
+    aside {  
+        display: none;
+    }
+}
+aside {
+    padding: 10px; 
+}
+.ads {
+    background-color: lightgray;
+    margin-bottom: 20px;
+}
+.add-1, .add-3 {
+    height: 200px;
+}
+.add-2 {
+    height: 300px;
+}
